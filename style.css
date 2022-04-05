@@ -183,7 +183,7 @@
         right: 0%;
     }
     50%{
-        right: calc(100% -60px);
+        right: calc(100% - 60px);
     }
 }
 
@@ -205,3 +205,26 @@
     width: 60px;
     height: 20px;
 }
+
+ 
+
+.ex-13-top-white:hover .ex-13-top-white{
+    animation: mov-top-full 2s linear;
+}
+
+@keyframes mov-top-full {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    25%{
+        top: 0;
+        left: ;
+    }
+
+    
+}
+
+
+
