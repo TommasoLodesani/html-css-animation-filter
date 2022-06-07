@@ -220,7 +220,7 @@
 
     25%{
         top: 0;
-        left: ;
+        left: calc()
     }
 
     
